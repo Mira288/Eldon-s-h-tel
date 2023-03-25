@@ -1,0 +1,295 @@
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(5, 5, 135);
+    position: relative;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.sous-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 20%; 
+    margin-top: 33px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.link
+{
+    font-size: 25px;
+}
+
+.link:hover
+{
+    font-style: italic;
+    color: yellow;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s ease;
+    padding: 51px 0;
+    text-decoration: underline;
+    text-underline-offset: 55px;
+}
+.logo
+{
+    border-radius: 100px;
+    background-color: rgb(46, 21, 3);
+    display: flex;
+    justify-content: center;
+    /*left: 12%;
+    top: 0;*/
+    width: 6%;
+    height: 97%; 
+}
+.logo img
+{
+    margin-top: 33px;
+}
+.container-footer
+{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    margin-top: 5%;
+}
+.reseaux-link
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 100px;
+    color: white;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.copyrigth
+{
+    margin-top: 40px;
+    font-style: italic;
+    font-size: 35px;
+    background-color: black;
+   
+}
+i:hover
+{
+    color: yellow;
+}
+.imageHotel
+{
+    width: 100%;
+    height: 700px;
+    border: 1px solid rgb(5, 5, 135);
+    background-image: url("/home/mirabelle/Documents/Développement web/site/Web images/hotel.jpg");
+}
+.sousDescription
+{
+    width: 70%;
+    height: 330px;
+    margin-left: 13%;
+    margin-top: 2%;
+    background-color: rgba(45, 59, 207, 0.508);
+}
+.descriptionHotel
+{
+    color: white;
+    width: 90%;
+    height: 330px;
+    margin-left: 5%;
+    
+}
+.session span
+{
+    height: 5px;
+    background-color: white;
+    width: 80%;
+    display: inline-block;
+    margin-top: 2%;
+}
+.session
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+}
+#eldon
+{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 8px;
+}
+h4
+{
+    color: black;
+    margin-left: 35%;
+}
+#description
+{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 20px;
+}
+.element :first-child 
+{
+    font-size: 30px;
+    color: rgb(116, 7, 7);
+    justify-content: center;
+    display: flex;
+    margin-top: 2%;
+}
+#ecrit
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.Image1
+{
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 2%;
+    border: 1px solid green;
+    
+}
+.Image1 img
+{
+    float: left;
+    bottom: 10%;
+}
+.Image1 img:hover
+{
+    transform: scale(1.1);
+}
+.Image1 p
+{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 25px;
+    transition: 0.2s ease-in;
+    margin-left: 10px;
+}
+.Image2
+{
+    width: 90%;
+    height: 500px;
+    margin-top: 3%;
+    border: 1px solid green;
+    margin-left: 5%;
+}
+.Image2 img
+{
+    float: right;
+    bottom: 10%;
+}
+#accommodation
+{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 35px;
+    transition: 0.3s ease;
+    color: rgb(116, 7, 7);
+}
+.Image2 p
+{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 25px;
+    transition: 0.3s ease;
+}
+.Image3
+{
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 3%;
+    border: 1px solid green;
+    
+}
+.Image3 img
+{
+    float: left;
+    bottom: 10%;
+}
+.Image3 p
+{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 25px;
+    transition: 0.3s ease;
+}
+#meeting
+{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 35px;
+    transition: 0.3s ease;
+    color: rgb(116, 7, 7);
+}
+.Image4
+{
+    width: 90%;
+    height: 500px;
+    margin-top: 3%;
+    border: 1px solid green;
+    margin-left: 5%;
+}
+.Image4 img
+{
+    float: right;
+    bottom: 10%;
+}
+#place
+{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 35px;
+    transition: 0.3s ease;
+    color: rgb(116, 7, 7);
+}
+.Image4 p
+{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 25px;
+    transition: 0.3s ease;
+}
+#localisation
+{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 35px;
+    transition: 0.3s ease;
+    color: rgb(116, 7, 7);
+    margin-bottom: 30px;
+}

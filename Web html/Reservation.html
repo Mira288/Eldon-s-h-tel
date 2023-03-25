@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="/home/mirabelle/Documents/Développement web/site/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="/home/mirabelle/Documents/Développement web/site/Web css/Reservation.css">
+    <title>reservation</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="logo">
+            <a href=""><img src="/home/mirabelle/Documents/Développement web/site/Web images/monLogo.png"></a>
+          </div>
+          <div class="sous-container">
+            <div ><a href="/home/mirabelle/Documents/Développement web/site/Web html/Home.html" class="link">Home</a></div>
+            <div><a href="/home/mirabelle/Documents/Développement web/site/Web html/Reservation.html" class="link">Reservation</a></div>
+            <div><a href="/home/mirabelle/Documents/Développement web/site/Web html/Testimonials.html" class="link">Testimonials</a></div>
+            <div><a href="/home/mirabelle/Documents/Développement web/site/Web html/Contact.html" class="link">Contact</a></div>
+          </div>
+        </div>
+    </header>
+    <section class="containerSection">
+      <section class="oursection">
+        <section class="firstSection">
+          <h1>Welcome to our room reservation</h1>
+          <div class="container1">
+            <div class="label1">
+              <label for="date" id="labelDate1">Arrival</label>
+              <input type="date" id="input1">
+            </div>
+            <div class="label2">
+              <label for="date" id="labelDate2">Departure</label>
+              <input type="date" id="input2">
+            </div>
+          </div>
+        </section>
+        <section class="section1">
+          <div class="unecrit">
+            <h2>Some of our partner hotels and relatives</h2>
+            <p id="titre">You can also consult them, for more information on them.</p>
+          </div>
+          <div class="image1">
+            <script src="/home/mirabelle/Documents/Développement web/site/Javascript/reservation.js"></script>
+            <img src="/home/mirabelle/Documents/Développement web/site/Web images/novotel.jpg"  data-aos="zoom-out-down">
+          </div>
+          <div>
+            <p id="novotel">NOVOTEL COTONOU ORISHA</p>
+           <p id="description">The Novotel Cotonou Orisha is located in Cotonou. It has a swimming pool outdoor pool,
+             restaurant and free Wi-Fi. air-conditioned rooms are equipped with a flat-screen TV as 
+             well as a minibar. The private bathrooms are equipped with a bathtub or a shower.
+              The rooms also have a seating area and satellite TV.
+           </p>
+          </div>
+          <div class="image2">
+            <img src="/home/mirabelle/Documents/Développement web/site/Web images/azalai.jpg">
+          </div>
+          <div>
+            <p id="novotel">AZALAÏ HÔTEL COTONOU</p>
+           <p id="description">Located in Cotonou, 2 km from the UNDP office, the Azalaï Hotel Cotonou has an outdoor 
+            swimming pool and offers a view of the sea. free shuttle bus and restaurant. The establishment
+             also offers a reception open 24 hours a day and a currency exchange desk.
+           </p>
+          </div>
+          <div class="image3">
+            <img src="/home/mirabelle/Documents/Développement web/site/Web images/beninHOTEL.jpeg">
+          </div>
+          <div>
+            <p id="novotel">BENIN ROYAL HÔTEL</p>
+           <p id="description">Located in Cotonou, the Benin Royal Hotel has an indoor swimming pool and a spa
+             with wellness center. You will enjoy a connection Free Wi-Fi.Its air-conditioned rooms are all equipped 
+             with satellite television. Their private bathroom is equipped with a bathtub or a shower and a hairdryer.
+              The rooms enjoy a city view.
+           </p>
+          </div>
+          <div class="image4">
+            <img src="/home/mirabelle/Documents/Développement web/site/Web images/nobila.webp">
+          </div>
+          <div>
+            <p id="novotel">NOBILA AIRPORT HOTEL</p>
+           <p id="description">Located in Cotonou, Nobila Airport Hotel offers a restaurant and free Wi-Fi. 
+            All accommodations include air conditioning, satellite TV and a minibar. The dining area is equipped with
+             a refrigerator and an electric kettle. The private bathroom has a shower, bath and hairdryer.
+           </p>
+          </div>
+          <div class="image5">
+            <img src="/home/mirabelle/Documents/Développement web/site/Web images/maison rouge.jpg">
+          </div>
+          <div>
+            <p id="novotel">HOTEL MAISON ROUGE COTONOU</p>
+            <p id="description">Located in Cotonou, Hotel Maison Rouge Cotonou offers 2 outdoor pools, a restaurant
+             and a connection Free Wi-Fi.The rooms are equipped with a minibar, air conditioning and a private bathroom 
+             with shower. The Hotel Maison Rouge Cotonou provides you with a airport shuttle, gardens, terraces, a shared 
+             lounge and a meeting room. On-site parking is free..
+           </p>
+          </div>
+        </section>
+      </section>
+      
+      <section class="secondSection">
+        <h3>The hotel offers rooms for up to 2 people with a minimum of 1 adult.</h3>
+        <div class="container2">
+          <div class="label3">
+            <label id="labelRoom">Bedroom(s)</label>
+            <select id="selectRoom">
+              <option>1</option>
+              <option>2</option>
+            </select>
+          </div>
+          <div class="label4">
+              <label id="labelAdult">Adult(s)</label>
+            <select id="selectAdult">
+              <option>1</option>
+              <option>2</option>
+            </select>
+          </div>
+          <div class="label5">
+            <label id="labelChild">Children(s)</label>
+            <select id="selectChild">
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+            </select>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="thirdSection">
+        <div class="session">
+          <span></span>
+          <p id="rates">Special rates</p>
+          <span></span>
+        </div>
+        <div class="Contenant">
+          <div class="loyalty">
+            <h2 id="subscription">Loyalty or subscription card</h2>
+            <label id="digit">16 digit card number</label>
+            <input type="text" id="inputDigit">
+          </div>
+          <div class="preferential">
+            <h2 id="code">Preferential code</h2>
+            <input type="text" id="inputCode">
+          </div>
+          <div class="business">
+            <h2 id="Travelors">Business travelers with contract</h2>
+            <label id="customer">Customer code (SC, AS….)</label>
+            <input type="text" id="inputCustomer">
+          </div>
+          <div class="acess">
+            <h2 id="code">Access code</h2>
+            <p id="char">10 characters</p>
+            <input type="text" id="inputChar">
+          </div>
+          <button id="see">See prices</button>
+        </div>
+        <div class="ecrit">
+          <p id="important">IMPORTANT!</p>
+          <div class="ligne"></div>
+          <p id="importantEcrit1">* Price from, for one night in accommodation in a standard double room 
+            including tax (for 1 or 2 people),excluding additional services, excluding breakfast,
+             excluding tourist tax and taxes additional to the tourist tax.</p>
+  
+          <p id="importantEcrit2"> Price of accommodation found on all.accor.com over the past 24 hours, 
+            for a stay in this hotel within the next 8 days. Variable depending on hotel, 
+            period and availability. Depending on the country of the hotel, these prices may 
+            be indicated either excluding taxes, or including VAT only, or all taxes included
+            (VAT and tourist tax included). When the prices are not displayed inclusive of all taxes,
+            the taxes (VAT and / or tourist tax) will be specified in the following steps of the reservation process.
+            The price is only guaranteed at the time of booking.</p>
+        </div>
+      </section>
+    </section>
+   
+    
+    <footer>
+        <div class="container-footer">
+          <div class="copyrigth">
+            <p>copyright@2021 All right reserved</p>
+          </div>
+          <div class="reseaux-link">
+            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>

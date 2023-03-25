@@ -1,0 +1,143 @@
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(5, 5, 135);
+    /*padding: 2%;*/
+    position: relative;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.sous-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 20%; 
+    margin-top: 33px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.link
+{
+    font-size: 25px;
+}
+.link:hover
+{
+    font-style: italic;
+    color: yellow;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s ease;
+    padding: 51px 0;
+    text-decoration: underline;
+    text-underline-offset: 55px;
+}
+.logo
+{
+    border-radius: 100px;
+    background-color: rgb(46, 21, 3);
+    display: flex;
+    justify-content: center;
+    /*left: 12%;
+    top: 0;*/
+    width: 6%;
+    height: 97%; 
+}
+.logo img
+{
+    margin-top: 33px;
+}
+.container-footer
+{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    margin-top: 10%;
+}
+.reseaux-link
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 100px;
+    color: white;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.copyrigth
+{
+    margin-top: 40px;
+    font-style: italic;
+    font-size: 35px;
+    background-color: black;
+}
+i:hover
+{
+    color: yellow;
+}
+.bordure
+{
+    width: 100%;
+    height: 450px;
+    overflow-x: scroll;
+}
+.person1
+{
+    width: 100%;
+    height: 400px;
+    color: white;
+}
+.ecrit
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+p
+{
+    margin-top: 2%;
+    font-size: 35px;
+    background-color: rgb(100, 9, 9);
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+h3
+{
+    margin-top: 2%;
+    color: black;
+}
+span
+{
+    font-size: 22px;
+    color: black;
+}
+.ligne
+{
+    width: 60%;
+    background-color: blue;
+    height: 2px;
+    
+}
+.image
+{
+    width: 30%;
+    height: 350px;
+    border: 1px solid black;
+    margin-left: 62%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}

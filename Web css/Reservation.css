@@ -1,0 +1,419 @@
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(5, 5, 135);
+    /*padding: 2%;*/
+    position: relative;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.sous-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 20%; 
+    margin-top: 33px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.link
+{
+    font-size: 25px;
+}
+.link:hover
+{
+    font-style: italic;
+    color: yellow;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s ease;
+    padding: 51px 0;
+    text-decoration: underline;
+    text-underline-offset: 55px;
+}
+.logo
+{
+    border-radius: 100px;
+    background-color: rgb(46, 21, 3);
+    display: flex;
+    justify-content: center;
+    /*left: 12%;
+    top: 0;*/
+    width: 6%;
+    height: 97%; 
+}
+i:hover
+{
+    color: yellow;
+}
+.logo img
+{
+    margin-top: 33px;
+}
+.container-footer
+{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    margin-top: 75%;
+}
+.reseaux-link
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 100px;
+    color: white;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.copyrigth
+{
+    margin-top: 40px;
+    font-style: italic;
+    font-size: 35px;
+}
+.firstSection
+{
+    width: 60%;
+    height: 100px;
+    margin-top: 80px;   
+}
+h1
+{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.container1
+{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+}
+.label1
+{
+    width: 40%;
+    height: 50px;
+}
+#input1
+{
+    margin-top: 1%;
+    width: 65%;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 14%;
+    margin-left: 45px;
+}
+#labelDate1
+{
+    margin-left: 50px;
+    margin-bottom: 5%;
+    margin-top: 5px;
+}
+#labelDate2
+{
+    margin-top: 10px;
+    margin-left: 41%;
+}
+#input2
+{
+    margin-top: 5px;
+    width: 60%;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 40%; 
+}
+.label2
+{
+    
+    width: 40%;
+    height: 50px;
+    margin-left: 20%;
+}
+.secondSection
+{
+    width: 60%;
+    height: 100px;
+    margin-top: 4%;   
+}
+h3
+{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 10%;
+}
+.container2
+{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+}
+.label3
+{
+    width: 40%;
+    height: 50px;
+}
+.label5
+{
+    width: 40%;
+    height: 50px;
+    margin-left: 20%;
+}
+.label4
+{
+    width: 40%;
+    height: 50px;
+    margin-left: 10%;
+}
+#labelRoom
+{
+    margin-left: 50px;
+    margin-bottom: 5%;
+    margin-top: 5px;
+}
+#selectRoom
+{
+    margin-top: 1%;
+    width: 95%;
+    height: 50px;
+    border-radius: 6px;
+    margin-right: 14%;
+    margin-left: 45px;
+}
+#selectChild
+{
+    margin-top: 5px;
+    width: 95%;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 5%; 
+}
+#labelChild
+{
+    margin-left: 20px;
+}
+#labelAdult
+{
+    margin-left: 28%;
+}
+#selectAdult
+{
+    margin-top: 5px;
+    width: 95%;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 25%; 
+}
+.session span
+{
+    height: 5px;
+    background-color: brown;
+    width: 80%;
+    display: inline-block;
+    margin-top: 2%;
+}
+.session
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+    margin-left: 50px;
+}
+#rates
+{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 8px;
+    color: rgb(137, 17, 17);
+}
+.thirdSection
+{
+    width: 60%;
+    height: 800px;
+    margin-top: 4%;      
+}
+.Contenant
+{
+    width: 100%;
+    height: 400px;
+}
+.loyalty
+{
+    width: 100%;
+    height: 70px;
+    margin-left: 45px;
+}
+#digit
+{
+    margin-left: 2%;
+}
+#inputDigit
+{
+    width: 96%;
+    height: 40px;
+    border-radius: 5px;
+}
+#inputDigit:hover
+{
+    border: 1px solid blue;
+}
+.preferential
+{
+    width: 100%;
+    height: 70px;
+    margin-left: 45px;
+    margin-top: 3%;
+}
+#inputCode
+{
+    width: 96%;
+    height: 40px;
+    border-radius: 5px;
+}
+.business
+{
+    width: 100%;
+    height: 70px;
+    margin-left: 45px;
+    margin-top: 3%;
+}
+#inputCustomer
+{
+    width: 96%;
+    height: 40px;
+    border-radius: 5px;
+}
+#customer
+{
+    margin-left: 2%;
+}
+.acess
+{
+    width: 100%;
+    height: 70px;
+    margin-left: 45px;
+    margin-top: 3%;
+}
+#inputChar
+{
+    width: 96%;
+    height: 40px;
+    border-radius: 5px;
+}
+#char
+{
+    margin-left: 2%;
+}
+#see
+{
+    color: white;
+    width: 97%;
+    height: 45px;
+    border-radius: 25px;
+    background-color: rgb(135, 33, 33);
+    margin-top: 5%;
+    font-size: 25px;
+    margin-left: 37px;
+}
+#see:hover
+{
+    background-color: rgb(5, 5, 135);
+    color: yellow;
+}
+.ecrit
+{
+    width: 100%;
+    height: 70px;
+    margin-left: 45px;
+    margin-top: 13%;
+}
+#important
+{
+    font-size: 25px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+#importantEcrit1
+{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 2%;
+}
+#importantEcrit2
+{
+    width: 97.5%;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 1%;
+}
+.ligne
+{
+    width: 12%;
+    height: 2px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    margin-left: 44%;
+}
+.section1
+{
+    width: 30%;
+    height: 50px;
+    margin-top: 80px;
+    display: inline-block;
+    margin-left: 100px;
+}
+.containerSection
+{
+    width: 100%;
+    height: 2000px;
+}
+.oursection
+{
+    display: flex;
+    width: 100%;
+}
+/*h2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}*/
+#titre
+{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#novotel
+{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 10px;
+}
+#description
+{
+    margin-bottom: 20%;
+}
