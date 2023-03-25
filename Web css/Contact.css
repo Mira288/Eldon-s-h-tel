@@ -117,7 +117,7 @@ i:hover
     width: 40%;
     height: 400px;
     margin-top: 20px;
-    background-image: url("/home/mirabelle/Documents/Développement web/site/Web images/volant.jpg");
+    background-image: url("../Web images/volant.jpg");
 }
 .formulaire
 {
