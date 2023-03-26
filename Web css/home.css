@@ -196,6 +196,7 @@ img
     font-size: 25px;
     transition: 0.2s ease-in;
     margin-left: 10px;
+    padding: 30px;
 }
 .Image2
 {
@@ -228,6 +229,7 @@ img
     margin-top: 150px;
     font-size: 25px;
     transition: 0.3s ease;
+    padding: 30px;
 }
 .Image3
 {
@@ -251,6 +253,7 @@ img
     margin-top: 150px;
     font-size: 25px;
     transition: 0.3s ease;
+    padding: 30px;
 }
 #meeting
 {
@@ -293,6 +296,7 @@ img
     margin-top: 150px;
     font-size: 25px;
     transition: 0.3s ease;
+    padding: 30px;
 }
 #localisation
 {

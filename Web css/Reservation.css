@@ -224,7 +224,7 @@ h3
 .session span
 {
     height: 5px;
-    background-color: brown;
+    background-color: maroon;
     width: 80%;
     display: inline-block;
     margin-top: 2%;
@@ -242,7 +242,7 @@ h3
     margin-top: 10px;
     font-size: 30px;
     margin-left: 8px;
-    color: rgb(137, 17, 17);
+    color: maroon;
 }
 .thirdSection
 {
@@ -273,7 +273,19 @@ h3
 }
 #inputDigit:hover
 {
-    border: 1px solid blue;
+    border: 1px solid rgb(5, 5, 135)e;
+}
+#inputChar:hover
+{
+    border: 1px solid rgb(5, 5, 135);
+}
+#inputCode:hover
+{
+    border: 1px solid rgb(5, 5, 135);
+}
+#inputCustomer:hover
+{
+    border: 1px solid rgb(5, 5, 135);
 }
 .preferential
 {
@@ -328,7 +340,7 @@ h3
     width: 97%;
     height: 45px;
     border-radius: 25px;
-    background-color: rgb(135, 33, 33);
+    background-color: maroon;
     margin-top: 5%;
     font-size: 25px;
     margin-left: 37px;
@@ -348,7 +360,7 @@ h3
 #important
 {
     font-size: 25px;
-    color: blue;
+    color: rgb(5, 5, 135);
     display: flex;
     justify-content: center;
 }
@@ -370,7 +382,7 @@ h3
 {
     width: 12%;
     height: 2px;
-    background-color: blue;
+    background-color: rgb(5, 5, 135);
     display: flex;
     justify-content: center;
     margin-left: 44%;
@@ -410,7 +422,7 @@ h3
     display: flex;
     justify-content: center;
     font-size: 20px;
-    color: blue;
+    color: rgb(5, 5, 135);
     margin-bottom: 10px;
 }
 #description

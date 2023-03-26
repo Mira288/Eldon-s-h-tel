@@ -140,4 +140,19 @@ span
     margin-left: 62%;
     border-radius: 50%;
     margin-bottom: 20px;
+    background-image: url("../Web images/amour.jpg");
 }
+/*.click
+{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.petitimage
+{
+    width: 100px;
+    height: 20px;
+    border-radius: 5px solid black;
+}*/
